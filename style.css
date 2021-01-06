@@ -53,9 +53,10 @@ p {
 }
 
 .btn {
+    font-size: small;
     text-decoration: none;
     background-image: linear-gradient( 45deg, #FF8063, tomato );
-    padding: 12px 40px; 
+    padding: 10px 30px; 
     border-radius: 5px;
     box-shadow: .5px .5px 10px rgb(107, 106, 106);
     color: white;
@@ -120,3 +121,34 @@ p {
     
 }
 
+.hire div {
+    background-image: url(images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 35%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.hire h2 {
+    font-size: 35px;
+    color: #f8f9fc;
+    font-weight: 300;
+    float: left;
+    margin: 40px 0 0 40px ;
+}
+
+.hire a {
+    font-size: small;
+    text-decoration: none;
+    background-image: linear-gradient( 45deg, #FF8063, tomato );
+    padding: 8px 20px; 
+    border-radius: 5px;
+    box-shadow: .5px .5px 10px rgb(107, 106, 106);
+    color: white;
+    letter-spacing: 2px;
+    
+}
+   
