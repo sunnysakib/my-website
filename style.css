@@ -9,6 +9,8 @@ body {
     overflow-x: hidden;
 }
 
+/*------ HEADER SECTION ------*/
+
 h1 {
     font-size: 60px;
     font-weight: 500;
@@ -16,7 +18,9 @@ h1 {
     line-height: 95%;
 }
 
-
+#headerpic {
+    margin-left: 0;
+}
 
 .half-widh {
     width: 40%;
@@ -64,19 +68,21 @@ p {
 
 }
 
-.project {
-    height: 500px;
-}
+
+/*------ ABOUT SECTION ------*/
+
  #secondpic {
      margin: 0 0 0 0;
      padding-right: 100px;
 
  }
 
- #headerpic {
-     margin-left: 0;
- }
+
  
+ /*------ PROJECT SECTION ------*/
+.project {
+    height: 500px;
+}
  .project {
      background-color: #f8f9fc;
      
@@ -120,6 +126,8 @@ p {
     color: dimgray;
     
 }
+
+/*------ HIRE SECTION ------*/
 
 .hire div {
     background-image: url(images/footer.png);
